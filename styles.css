@@ -1,0 +1,48 @@
+body{
+background:blue;
+color: azure;
+font-family: "Jersey 10", sans-serif;
+border-bottom: 100px;
+}
+
+header{
+background-color: black;
+color: aquamarine;
+border-bottom: solid 2px white;
+padding: 20px;
+font-size: 20px;
+}
+
+section{
+background: red;
+padding-bottom: 80px;
+display: flex;
+justify-content: center
+}
+
+.chamada-texto{
+    margin-right: 20px;
+}
+
+.categoria img { 
+height: 200px;
+opacity: 0.5;
+}
+
+.categoria-videos{
+display: flex;
+overflow-x: auto;
+gap: 10px;
+}
+
+.categoria{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.categoria-videos img:hover {
+opacity: 1.0;
+border: solid 5px white;
+
+}
+
